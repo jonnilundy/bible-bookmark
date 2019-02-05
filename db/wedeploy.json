@@ -1,0 +1,10 @@
+{
+    "id": "db",
+    "image": "mongo:latest",
+    "port": 27017,
+    "volumes": {
+        "mongodb": "/data/db"
+    },
+    "zeroDowntime": false
+}
+  
